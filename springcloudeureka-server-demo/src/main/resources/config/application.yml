@@ -1,0 +1,16 @@
+server:
+  port: 8899
+eureka:
+  instance:
+    hostname: 127.0.0.1:8899
+  server:
+    enable-self-preservation: false #关闭自我保护，可以定期清理失效的服务
+    eviction-interval-timer-in-ms: 1000 # 清理间隔（单位毫秒，默认是60*1000）:
+  client:
+    register-with-eureka: false  #由于该应用为注册中心，所以设置为false, 代表不向注册中心注册自己
+    fetch-registry: false #由于注册中心的职责就是维护服务实例，它并不需要去检索服务， 所以也设置为false
+    service-url:
+      defaultZone: http://127.0.0.1:8898/eureka/,http://127.0.0.1:8897/eureka
+spring:
+  application:
+    name: eureka-server99

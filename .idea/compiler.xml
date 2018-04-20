@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka-test-demo" />
+        <module name="spring-cloud-config-server-demo" />
+        <module name="springcloud-config-demo" />
+        <module name="springcloudconfigservice-tow-demo" />
+        <module name="springcloudeureka-server-demo" />
+        <module name="springcloudeurekathree" />
+        <module name="springcloudeurekatwo" />
+        <module name="test-demo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eureka-test-demo" target="1.8" />
+      <module name="spring-cloud-config-server-demo" target="1.8" />
+      <module name="springcloud-config-demo" target="1.8" />
+      <module name="springcloud-demo" target="1.8" />
+      <module name="springcloudconfigservice-tow-demo" target="1.8" />
+      <module name="springcloudeureka-server-demo" target="1.8" />
+      <module name="springcloudeurekathree" target="1.8" />
+      <module name="springcloudeurekatwo" target="1.8" />
+      <module name="test-demo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

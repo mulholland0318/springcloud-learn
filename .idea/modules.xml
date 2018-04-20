@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../springcloud-demo/eureka-test-demo/eureka-test-demo.iml" filepath="$PROJECT_DIR$/../springcloud-demo/eureka-test-demo/eureka-test-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springcloud-demo/spring-cloud-config-server-demo/spring-cloud-config-server-demo.iml" filepath="$PROJECT_DIR$/../springcloud-demo/spring-cloud-config-server-demo/spring-cloud-config-server-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springcloud-demo/springcloud-config-demo/springcloud-config-demo.iml" filepath="$PROJECT_DIR$/../springcloud-demo/springcloud-config-demo/springcloud-config-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springcloud-demo/springcloud-demo.iml" filepath="$PROJECT_DIR$/../springcloud-demo/springcloud-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springcloud-demo/springcloudconfigservice-tow-demo/springcloudconfigservice-tow-demo.iml" filepath="$PROJECT_DIR$/../springcloud-demo/springcloudconfigservice-tow-demo/springcloudconfigservice-tow-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springcloud-demo/springcloudeureka-server-demo/springcloudeureka-server-demo.iml" filepath="$PROJECT_DIR$/../springcloud-demo/springcloudeureka-server-demo/springcloudeureka-server-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springcloud-demo/springcloudeurekathree/springcloudeurekathree.iml" filepath="$PROJECT_DIR$/../springcloud-demo/springcloudeurekathree/springcloudeurekathree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springcloud-demo/springcloudeurekatwo/springcloudeurekatwo.iml" filepath="$PROJECT_DIR$/../springcloud-demo/springcloudeurekatwo/springcloudeurekatwo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springcloud-demo/test-demo/test-demo.iml" filepath="$PROJECT_DIR$/../springcloud-demo/test-demo/test-demo.iml" />
+    </modules>
+  </component>
+</project>

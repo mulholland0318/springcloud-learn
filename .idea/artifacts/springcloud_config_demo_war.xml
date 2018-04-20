@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springcloud-config-demo:war">
+    <output-path>$PROJECT_DIR$/../springcloud-demo/springcloud-config-demo/target</output-path>
+    <root id="archive" name="springcloud-config-demo-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="springcloud-config-demo:war exploded" />
+    </root>
+  </artifact>
+</component>

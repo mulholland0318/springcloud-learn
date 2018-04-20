@@ -1,0 +1,19 @@
+server:
+  port: 8801
+spring:
+  application:
+    name: service-test
+  cloud:
+    config:
+      #uri: http://localhost:8888
+      label: master
+      profile: dev
+      discovery:
+        enabled: true
+        service-id: config-server
+
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8899/eureka/,http://127.0.0.1:8898/eureka,http://127.0.0.1:8897/eureka

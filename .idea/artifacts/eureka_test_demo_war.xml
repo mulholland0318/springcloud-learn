@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="eureka-test-demo:war">
+    <output-path>$PROJECT_DIR$/../springcloud-demo/eureka-test-demo/target</output-path>
+    <root id="archive" name="eureka-test-demo-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="eureka-test-demo:war exploded" />
+    </root>
+  </artifact>
+</component>

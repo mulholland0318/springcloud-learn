@@ -1,0 +1,9 @@
+server:
+  port: 8822
+spring:
+  application:
+    name: service-test
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8899/eureka,http://127.0.0.1:8898/eureka,http://127.0.0.1:8897/eureka

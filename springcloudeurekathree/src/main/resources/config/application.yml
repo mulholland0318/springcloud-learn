@@ -1,0 +1,13 @@
+server:
+  port: 8897
+eureka:
+  instance:
+    hostname: 127.0.0.1:8897
+  client:
+    register-with-eureka: false #不向注册中心 注册自己
+    fetch-registry: false #不检测服务
+    service-url:
+      defaultZone: http://127.0.0.1:8899/eureka,http://127.0.0.1:8898/eureka
+spring:
+  application:
+    name: eureka-server97

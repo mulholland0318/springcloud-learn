@@ -1,0 +1,9 @@
+server:
+  port: 3333
+spring:
+  application:
+    name: peer3
+eureka:
+  client:
+    service-url:
+      defaultZone: http://peer1:1111/eureka,http://peer3:3333/eureka
